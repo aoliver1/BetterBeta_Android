@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- CAUTION!  These values and their order MUST conform to Media.TYPE_XXX -->
+<resources>
+    <string-array name="media_types">
+        <item>--Choose Media Type--</item>
+        <item>Picture from Web</item>
+        <item>Picture on Device</item>
+        <item>YouTube Video</item>
+    </string-array>
+</resources>

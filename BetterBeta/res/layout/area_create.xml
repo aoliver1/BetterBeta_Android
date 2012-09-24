@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/name_label"
+	    android:textSize="10pt"
+	    />
+	
+	
+	<EditText android:id="@+id/area_name"
+			android:text="@string/area_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:enabled="true"/>
+
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/details_label"
+	    android:textSize="10pt"
+	    />
+	
+	<EditText android:id="@+id/area_details"
+			android:text="@string/area_details"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:enabled="true"/>
+
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/parent_label"
+	    android:textSize="10pt"
+	    />
+	
+	<Spinner android:id="@+id/parent"
+		 android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    />
+
+	
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/longitude_label"
+	    android:textSize="10pt"
+	    />
+	
+	<EditText android:id="@+id/area_longitude"
+		 android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    	android:text="@string/zero_point_zero"
+	    />
+	
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/latitude_label"
+	    android:textSize="10pt"
+	    />
+	
+	<EditText android:id="@+id/area_latitude"
+		 android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/zero_point_zero"
+	/>
+	
+	
+	<Button android:id="@+id/update_area_location"
+           android:text="@string/update_location"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" 
+	/>
+	
+	<Button android:id="@+id/edit_problem_location"
+           android:text="@string/edit_location"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content" 
+	/>
+	
+	</LinearLayout>
+</ScrollView>

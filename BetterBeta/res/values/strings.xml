@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+	<string name="app_name">Better Beta</string>
+    <string name="welcome">Welcome to Better Beta  \
+    - A guidebook and research tool for rock climbers.
+    </string>
+    <string name="instructions">Please use the above menu to navigate. \
+     The \'MENU\' button is used extensively, \
+     as is \'long press\' on problems and areas.
+    </string>
+    <string name="add_area">Add Area</string>
+    <string name="add_problem">Add Problem</string>
+    <string name="add_problem_near">Add Problem Near</string>
+    <string name="map">Map</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="problems">Problems</string>
+    <string name="problems_label">Problems:</string>
+    <string name="medias_label">Beta:</string>
+    <string name="areas">Areas</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="use">Use</string>
+    <string name="view">View</string>
+    <string name="hide">Hide</string>
+    <string name="new_problem">New Problem</string>
+    <string name="new_problem_near">New Problem Near</string>
+    <string name="new_area">New Area</string>
+    <string name="toggle_problems">Toggle Problems</string>
+    <string name="toggle_location">Toggle My Location</string>
+    <string name="follow_me">Toggle Following</string>
+    <string name="problem_create_instructions">Add New Problem</string>
+	<string name="area_create_instructions">Add New Area</string>
+   	<string name="take_picture">Take Picture</string>
+   	<string name="problem_name">Problem Name</string>
+   	<string name="problem_details">Problem Details</string>
+   	<string name="create_problem">Create Problem</string>
+   	<string name="name_label">Name</string>
+   	<string name="details_label">Details</string>
+   	<string name="rating_label">Rating</string>
+   	<string name="path_label">Path</string>
+   	<string name="area_label">Area</string>
+   	<string name="longitude_label">Longitude</string>
+   	<string name="latitude_label">Latitude</string>
+   	<string name="pictures_label">Pictures</string>
+   	<string name="save">Save</string>
+   	<string name="discard">Discard</string>
+   	<string name="area_name">Name</string>
+   	<string name="media_name">Name</string>
+   	<string name="area_details">Details</string>
+   	<string name="media_details">Details</string>
+   	<string name="parent_label">Parent</string>
+   	<string name="create_area">Create Area</string>
+   	<string name="update_location">Use Current Location (GPS)</string>
+   	<string name="use_current_accuracy">Use Current Accuracy</string>
+   	<string name="edit_location">Edit Location on Map</string>
+   	<string name="go_to_me">Me</string>
+   	<string name="go_to_problem">Problem</string>
+   	<string name="go_to_area">Area</string>
+   	<string name="yes">Yes</string>
+   	<string name="cancel">Cancel</string>
+   	<string name="loading">Loading</string>
+   	<string name="add_media">Add Beta</string>
+   	<string name="sync_areas">Sync Areas</string>
+   	<string name="sync">Sync</string>
+   	<string name="syncing">Syncing...</string>
+   	<string name="filter_by_area">Area:</string>
+   	<string name="sync_service_started">Syncing...</string>
+   	<string name="sync_service_complete">Sync Complete</string>
+   	<string name="zero_point_zero">0.0</string>
+   	<string name="sync_warning">You have unsynced content, please choose MENU->sync to upload it</string>
+   	
+</resources>

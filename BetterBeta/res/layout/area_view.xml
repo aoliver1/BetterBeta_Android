@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<LinearLayout   android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+
+	<TextView android:id="@+id/area_name_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:enabled="true"
+			android:textSize="14pt"/>
+
+	<TextView android:id="@+id/area_parent_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:enabled="true"
+			android:textSize="10pt"/>
+
+	<TextView android:id="@+id/area_details_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+			android:enabled="true"
+			android:textSize="10pt"/>
+
+	    
+	<TextView  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/problems_label"
+		    android:textSize="10pt"
+	    />
+	    
+	<ListView android:id="@android:id/list"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="200dip"
+	    android:layout_weight="1"
+	    android:drawSelectorOnTop="false"/>
+	    
+	</LinearLayout>
+	
+</ScrollView>
